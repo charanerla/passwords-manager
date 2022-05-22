@@ -1,0 +1,69 @@
+.list-item {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #b6c3ca;
+  padding: 6px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: inline-flex;
+  min-width: 40px;
+  height: 40px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 8px;
+  color: #ffffff;
+}
+@media all and (min-width: 768px) {
+  .list-item {
+    width: 40vw;
+  }
+}
+@media all and (min-width: 992px) {
+  .list-item {
+    width: 20vw;
+    margin-right: 2vw;
+  }
+}
+.website-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.user-name {
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+.shown-password {
+  color: #ffffff;
+  margin: 0px;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.bin-icon {
+  width: 22px;
+}
+.profile-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.password-stars {
+  width: 60%;
+}
